@@ -12,7 +12,7 @@
  \______/  \___/  \______/ \_______|__/  \__/      |__/    |__/      \_______/\_______|__/\_______/  \___/ |__/\______/|__/  |__/                                                               
                                                                  
                                                                                                                    
-                                                                            </pre>
+                                                                                                                                   </pre>
 
 ## Descripción del proyecto
 Análisis y predicción de series de temporales de sotck basadas en noticias para la asignatura de Descubrimineto de Conocimiento en Datos Complejos usando el dataset de [French news - Stocks prediction](https://www.kaggle.com/datasets/arcticgiant/french-financial-news).
@@ -28,8 +28,59 @@ TO BE COMPLETED
 TO BE COMPLETED
 
 ## Extra
-TO BE COMPLETED
+### 1. Git LFS para subir archivos grandes al repositorio
+   Git Large File Storage (LFS) reemplaza archivos grandes como muestras de audio, videos, conjuntos de datos y gráficos con punteros de texto dentro de Git, mientras almacena el contenido del archivo en un servidor remoto como GitHub.com o GitHub Enterprise. Esta herramienta se utiliza para poder subir el dataset a utilizar en la práctica.
 
+Para más información, visita: [repositorio de Git LFS](https://github.com/git-lfs/git-lfs/tree/main).
+
+ > **ADVERTENCIA:** Cada cuenta que usa Git Large File Storage recibe 1 GiB de almacenamiento gratuito y 1 GiB al mes de ancho de banda gratuito, por lo que para evitar problemas al subir archivos pesados, se recomienda subir solo los archivos pesados uno a la vez y no realizar otros cambios adicionalmente.
+
+<p align="center">
+  <img src="https://git-lfs.com/images/graphic.gif" width="350">
+</p>
+
+  **1.1.** Descargar e instalar la extensión de línea de comandos de Git:
+
+<table>
+<thead>
+  <tr>
+    <th><a href="https://git-lfs.com/">Windows</a></th>
+    <th><a href="https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md">Linux</span></a></th>
+    <th><a href="https://formulae.brew.sh/formula/git-lfs">MacOS</span></a></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Descargar e instalar el instalador de git-lfs</td>
+    <td><ul><li><code>sudo apt-get install software-properties-common</code></li><li><code>sudo curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash</code></li><li><code>sudo apt-get install git lfs</code></li></ul>
+    <td><code>$brew install git-lfs</code></td>
+  </tr>
+</tbody>
+</table>
+
+  Una vez descargado e instalado, configura Git LFS para tu cuenta de usuario ejecutando:
+
+  ```bash
+    git lfs install
+```
+
+> **NOTA:** Solo necesitas ejecutar esto una vez por cuenta de usuario.
+
+**1.2.** Navega a tu repositorio local:
+```bash
+  cd /ruta/a/tu/repo
+```
+**1.3** En cada repositorio de Git donde quieras usar Git LFS, selecciona los tipos de archivos que te gustaría que Git LFS administre (o edita directamente tu .gitattributes). Esto se hace usando el comando `git lfs track`:
+```bash
+  git lfs track "*.ext"
+```
+
+Puedes configurar extensiones de archivo adicionales en cualquier momento. Por ejemplo, si quieres rastrear archivos con una extensión .csv y .h5 usando Git LFS, ejecutarías: git lfs track "*.csv" "*.h5". Después de ejecutar ese comando, se creará un archivo .gitattributes donde puedes agregar más archivos para ser rastreados editándolo usando el comando ``git lfs track`` nuevamente o editando .gitattributes directamente.
+
+Ahora asegúrate de que .gitattributes esté rastreado:
+```bash
+  git add .gitattributes
+```
 
 ----
 ## Licencia
