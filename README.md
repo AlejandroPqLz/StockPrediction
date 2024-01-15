@@ -67,10 +67,12 @@ Para más información, visita: [repositorio de Git LFS](https://github.com/git-
 > **NOTA:** Solo necesitas ejecutar esto una vez por cuenta de usuario.
 
 **1.2.** Navega a tu repositorio local:
+
 ```bash
   cd /ruta/a/tu/repo
 ```
 **1.3** En cada repositorio de Git donde quieras usar Git LFS, selecciona los tipos de archivos que te gustaría que Git LFS administre (o edita directamente tu .gitattributes). Esto se hace usando el comando `git lfs track`:
+
 ```bash
   git lfs track "*.ext"
 ```
@@ -78,8 +80,19 @@ Para más información, visita: [repositorio de Git LFS](https://github.com/git-
 Puedes configurar extensiones de archivo adicionales en cualquier momento. Por ejemplo, si quieres rastrear archivos con una extensión .csv y .h5 usando Git LFS, ejecutarías: git lfs track "*.csv" "*.h5". Después de ejecutar ese comando, se creará un archivo .gitattributes donde puedes agregar más archivos para ser rastreados editándolo usando el comando ``git lfs track`` nuevamente o editando .gitattributes directamente.
 
 Ahora asegúrate de que .gitattributes esté rastreado:
+
 ```bash
   git add .gitattributes
+```
+
+> **NOTA:** Solo tienes que ejecutar los comandos 1.3 la primera vez que uses Git LFS y cuando quieras añadir más extensiones para rastrear.
+
+**1.4** No hay un paso cuatro. Simplemente haz commit y push a GitHub como lo harías normalmente; por ejemplo, si tu rama actual se llama main:
+
+```bash
+  git add file.ext
+  git commit -m "subir archivo pesado"
+  git push origin main
 ```
 
 ----
