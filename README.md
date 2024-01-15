@@ -94,10 +94,6 @@ Ahora asegúrate de que .gitattributes esté rastreado:
   git commit -m "subir archivo pesado"
   git push origin main
 ```
-
-----
-## Licencia
-TO BE COMPLETED
  
 ## Autores 
 Este proyecto ha sido desarollado por estudiantes de la Universidad Poltécina de Madrid (UPM) para el trabajo final de la asignatura de Descubirmiento de Conocimiento de Datos Complejos (DCDC). Los autores son [Che Cui](che.cui@alumnos.upm.es) y [Alejandro Pequeño Lizcano](alejandro.pequeno@alumnos.upm.es).
