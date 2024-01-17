@@ -15,7 +15,7 @@
                                                                                                                                    </pre>
 
 ## Descripción del proyecto
-Análisis y predicción de series de temporales de sotck basadas en noticias para la asignatura de Descubrimineto de Conocimiento en Datos Complejos usando el dataset de [French news - Stocks prediction](https://www.kaggle.com/datasets/arcticgiant/french-financial-news).
+Análisis y predicción de series de temporales de stock basadas en noticias para la asignatura de Descubrimineto de Conocimiento en Datos Complejos usando el dataset de [French news - Stocks prediction](https://www.kaggle.com/datasets/arcticgiant/french-financial-news).
 
 ## Prerquisitos
 Antes de inciar a ejecutar los archivos se debe tener instalado:
