@@ -37,13 +37,11 @@ Análisis y predicción a corto palzo de series de temporales de stock basadas e
 
 ## Prerquisitos
 Antes de inciar a ejecutar los archivos se debe tener instalado:
-- Python 3.x
-
-## Instalación
-TO BE COMPLETED
+- Python 3.x.
+- El resto de paquetes vienen con el código necesario en el .ipynb para su fácil uso y reproductibilidad.
 
 ## Uso
-TO BE COMPLETED
+Tan solo sigue las instrucciones del .ipynb que se encuentra en la carpeta de code del repositorio
 
 ## Extra
 ### 1. Git LFS para subir archivos grandes al repositorio
