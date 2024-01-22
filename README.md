@@ -19,7 +19,7 @@ Análisis y predicción a corto palzo de series de temporales de stock basadas e
 
 ## Estrucutra del repositorio
 
-````tree
+```tree
 📦StockPrediction
  ┣ 📂code --- carpeta con el archivo de código de la práctica
  ┃ ┗ 📜DCDC_PrácticaFinal_Predicción de Stock.ipynb
