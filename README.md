@@ -15,7 +15,25 @@
                                                                                                                                    </pre>
 
 ## Descripción del proyecto
-Análisis y predicción de series de temporales de stock basadas en noticias para la asignatura de Descubrimineto de Conocimiento en Datos Complejos usando el dataset de [French news - Stocks prediction](https://www.kaggle.com/datasets/arcticgiant/french-financial-news).
+Análisis y predicción a corto palzo de series de temporales de stock basadas en noticias para la asignatura de Descubrimineto de Conocimiento en Datos Complejos usando el dataset de [French news - Stocks prediction](https://www.kaggle.com/datasets/arcticgiant/french-financial-news).
+
+## Estrucutra del repositorio
+
+````tree
+📦StockPrediction
+ ┣ 📂code --- carpeta con el archivo de código de la práctica
+ ┃ ┗ 📜DCDC_PrácticaFinal_Predicción de Stock.ipynb
+ ┣ 📂data --- carpeta con los archivos de datos de la práctica
+ ┃ ┣ 📂img --- carpeta de imágenes
+ ┃ ┃ ┗ 📜euro_open.png
+ ┃ ┣ 📜FrenchNews.csv --- dataset de noticias en francés
+ ┃ ┣ 📜FrenchNewsDayConcat.csv --- dataset de noticias en francés concatenadas por día
+ ┃ ┗ 📜euro.csv --- dataset de acciones de la bolsa europea
+ ┣ 📜.gitattributes --- 
+ ┣ 📜LICENSE --- Apache-2.0 license
+ ┗ 📜README.md --- Este archivo
+
+```
 
 ## Prerquisitos
 Antes de inciar a ejecutar los archivos se debe tener instalado:
