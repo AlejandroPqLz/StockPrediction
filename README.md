@@ -32,7 +32,6 @@ Análisis y predicción a corto palzo de series de temporales de stock basadas e
  ┣ 📜.gitattributes --- 
  ┣ 📜LICENSE --- Apache-2.0 license
  ┗ 📜README.md --- Este archivo
-
 ```
 
 ## Prerquisitos
